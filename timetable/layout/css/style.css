@@ -1,0 +1,189 @@
+body {
+    background-color: #F4F4F4;
+}
+
+nav.navbar {
+    border-radius: 0;
+}
+
+.login {
+    width: 500px;
+    margin: 80px auto;
+}
+
+@media (max-width: 576px){
+    .login {
+        width: 300px;
+    }   
+}
+
+.login h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.login input {
+    background-color: #EAEAEA;
+}
+
+.alert-login {
+    margin-top: 10px;
+}
+
+
+/* Start Professeur */
+.profs .btn-add {
+    margin-top: 20px;
+}
+.profs .search {
+    margin-top: 20px;
+}
+.profs .search input{
+    width: 100%;
+}
+
+.profs .modal-footer .btn-custom {
+    color: #FFF;
+    margin-bottom: 0;
+}
+
+.profs .modal-footer .btn-custom:hover {
+    text-decoration: none;
+}
+
+.profs .main-table tbody td {
+    max-width: 20px;
+}
+
+
+/* End Professeur */
+
+
+/* Start Class */
+
+.classes .btn-add, 
+.matieres .btn-add {
+    margin-bottom: 10px;
+}
+
+.matieres .table-responsive ,
+.classes .table-responsive {
+    height: 400px;
+    overflow-y: auto;
+    position: absolute;
+}
+.classes .main-table,
+.matieres .main-table {
+    width: 800px;
+}
+
+.classes .main-table tbody td:last-child {
+    width: 180px;
+}
+
+/* End Class */
+
+
+
+/* Start Matiere */
+
+.matieres .main-table tbody td {
+    max-width: 20px;
+}
+
+
+/* End Matiere */
+
+
+/* Start Emploi  */
+
+.emploi .btn-new {
+    margin-bottom: 10px;
+}
+
+.emploi label.choose-class {
+    line-height: 30px;
+}
+
+@media (max-width: 991px){
+    .emploi .btn-new {
+        /* margin-left: 125px; */
+    }
+    .emploi .btn-afficher {
+        margin-left: 18px;
+        margin-top: 10px;
+    }
+}
+
+.emploi .main-table .thead-dark {
+    background-color: #000;
+    color: #FFF;
+    height: 50px;
+}
+
+.emploi .main-table .thead-dark th {
+    line-height: 50px;
+    text-align: center;
+}
+
+.emploi .main-table .thead-dark th:first-child {
+    max-width: 40px;
+    padding: 0;
+}
+
+.emploi .main-table .thead-dark th:first-child span {
+    margin-left: 6px;
+    line-height: 65px;
+
+}
+
+.emploi .main-table tbody td {
+    text-align: center;
+}
+
+
+.emploi .main-table td[scope="row"] {
+    background-color: #000;
+    color: #FFF;
+    height: 80px;
+    line-height: 140px;
+}
+
+.emploi .main-table .cours {
+    background-color: yellow;
+    color: #000;
+    max-width: 30px;
+    line-height: 50px;
+}
+
+@media (max-width: 991px){
+    .emploi .main-table thead th span {
+        font-size: 6px;
+    }    
+    .emploi .main-table td[scope="row"] {
+        font-size: 7px;
+    }
+    .emploi .main-table thead th,
+    .emploi .main-table td {
+        max-width: 25px;
+        font-size: 9px;
+    }
+    .emploi .main-table .cours span {
+        padding: 0;
+        margin: -10px;
+        font-size: 8px;
+        white-space: pre-line;
+    }
+    .emploi .main-table .cours button[type="button"] {
+        font-size: 6px;
+        padding: 2px;
+    }
+
+}
+
+.emploi .main-table .cours span {
+    display: block;
+}
+
+/* End  Emploi  */
+
